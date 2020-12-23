@@ -28,7 +28,6 @@ sudo apt-get update
 sudo apt-get install php5.6-dev php5.6-gd -y
 apt-get install php5.6-geoip php5.6-fpm mcrypt php5.6-mcrypt php5.6enmod mcrypt -y
 apt-get install apache2 apache2-mpm-prefork apache2-utils libapache2-mod-php5.6 libapr1 libaprutil1 libdbd-mysql-perl libdbi-perl libnet-daemon-perl libplrpc-perl libpq5 mysql-client-5.5 mysql-common mysql-server mysql-server-5.5 php5.6-common php5.6-mysql -y
-apt-get install phpmyadmin -y
 sudo php5.6enmod mcrypt
 service apache2 reload && service apache2 restart
 echo " "
@@ -433,9 +432,3 @@ echo -e "${jeshile} │[+]        Serveri Do Te Behet Automatic Reboot          
 echo -e "${jeshile} └──────────────────────────────────────────────────────────┘ \e[0m"
 echo " "
 sleep 8
-reboot
-echo " "
-echo -e "${jeshile} ┌───────────────────────┐ \e[0m"
-echo -e "${jeshile} │[R]  Rebooting VPS...  │ \e[0m"
-echo -e "${jeshile} └───────────────────────┘ \e[0m"
-echo " "
